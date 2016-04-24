@@ -8,6 +8,7 @@ body {
 }
 
 h1 {
+  margin-bottom: 25px;
   font-family: PT Sans Narrow, Arial, sans-serif;
   font-size: 30px;
   line-height: 42px;
@@ -17,10 +18,214 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 35px;
+  margin-top: 0px;
   font-family: PT Sans Narrow, Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+h3 {
+  margin-left: 16px;
+  margin-bottom: 16px;
+  font-family: PT Sans Narrow, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+  background-color: darkgray;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo {
+  float:left;
+  width: 140px;
+  min-height: 70px;
+}
+
+.main-navigation {
+  float: left;
+  width: 640px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.top {
+  margin-bottom: 60px;
+}
+
+.breadcrumbs {
+  float: left;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.sidebar {
+  float: left;
+  width: 220px;
+}
+
+.filter {
+  min-height: 570px;
+}
+
+.filter-producer {
+  margin-bottom: 40px;
+}
+
+.filter-label {
+  margin-bottom: 15px;
+}
+
+.filter-product {
+  margin-bottom: 35px;
+}
+
+.catalog {
+  float: right;
+  margin-left: 20px;
+  width: 700px;
+}
+
+.main-catalog {
+  font-size: 0px;
+}
+
+.catalog-item {
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.category {
+  display: block;
+}
+
+.title {
+  display: block;
+  text-transform: uppercase;
+}
+
+.footer-catalog {
+  margin-top: 25px;
+}
+
+.order {
+  width: 187px;
+  margin: 0 auto;
+}
+
+.main-footer {
+  background-color: darkgray;
+}
+
+.footer-contacts {
+  float: left;
+  margin-top: 65px;
+  width: 380px;
+  min-height: 189px;
+}
+
+.footer-social {
+  float: left;
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 140px;
+  min-height: 189px;
+}
+
+.footer-copyright {
+  float: right;
+  margin-top: 50px;
+  margin-left: 260px;
+  width: 140px;
+  min-height: 189px;
+}
+
+.content-left {
+  float: left;
+  width: 460px;
+}
+
+.content-right {
+  float: right;
+  width: 390px;
+  margin-left: 90px;
+}
+
+.gallery-content {
+  margin-bottom: 20px;
+}
+
+.gallery-pagination {
+  min-height: 150px;
+  font-size: 0px;
+}
+
+.image-pagination {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.image-pagination:last-child {
+  margin-right: 0px;
+}
+
+.description-product {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.description-top {
+  margin-bottom: 40px;
+}
+
+.availible {
+  float: left;
+  width: 90px;
+}
+
+.articul {
+  float: right;
+  margin-left: 160px;
+  text-align: center;
+  width: 140px;
+}
+
+.content-right .order {
+  margin-left: 0px;
+  margin-bottom: 70px;
 }
